@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Julius+Sans+One&display=swap"
+    rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
@@ -13,6 +18,7 @@
         body{
         background-color: #151522;
         color: #fff;
+        font-family: 'Judson', serif;
         }
         .nav-img{
         max-width: 45px;
@@ -22,21 +28,121 @@
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/464/original/night-sky-glows-with-mountain-peak-backdrop-adventure-awaits-generative-ai_%281%29.jpg?1700472816"); 
         background-repeat: none;
         background-size: cover; 
-        padding: 300px 0;  
+        padding: 350px 0;  
         }
+
+        h1{
+        color: #FFF;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 71px;
+        margin-right: 71px;
+        }
+        h2{
+        margin-top: 40px;
+        font-family: 'Julius Sans One', sans-serif;
+        text-align: center;
+        font-size: 36px;
+        }
+        
+        h3{
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 30px;
+        margin-top: 15px ;
+        text-align: center;
+        }
+
+        .buy-links{
+        text-align: center;
+        }
+
         .divider{
         background-color:#2B3035;
         padding: 10px 0;     
         }
         .book-img{
+        display: block;
+        margin: 0 auto;
         width:349px;
-        height:483px ;
+        height:483px;
         }
         .card{
+        
         color: #fff;
         background-color: #1E1E1E;
         }
+        .blurb{
+        margin-top: 43px;
+        margin-left: 44px;
+        }
+        .blurb-para{
+        text-align: center;
+        color: #FFF;
+        font-family: Judson;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 25px;
+        margin-left: 64px;
+        margin-right: 64px;
+
+        }
+
+        .details-para{
+        margin-top: 25px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 25px;
+        text-align:center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        }
+
+        .details{
+        
+        margin-top:43px;    
+        margin-right:44px;
+        }
+
+        .quote-para{
+        margin-top: 25px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 25px;
+        color: #FFF;
+        text-align: center;
+        font-family: Judson;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        }
+
+        .quotes{
+        margin-top: 33px;
+        margin-right: 56px;
+       ;
+     
+        }
        
+
+@media (max-width: 960px){
+    header{
+        padding: 80px 0;
+    }
+}
+
+
+        
     </style>
 </head>
 <body>
@@ -74,56 +180,61 @@
 <div class="divider"></div>
 <section class="book-details">
 <div class='row'>
-    <div class="col-md-6 col-sm-6 border">
-<div class="card">
+    <div class="col-md-6 col-sm-6">
+<div class="card blurb">
     <h1>A Court of Mist & Fury</h1>
-    <p>Feyre survived Amarantha's clutches to return to the Spring Court - but at a steep cost. Though she now has the powers
+    <p class="blurb-para">Feyre survived Amarantha's clutches to return to the Spring Court - but at a steep cost. Though she now has the powers
     of the High Fae, her heart remains human, and it can't forget the terrible deeds she performed to save Tamlin's people.
-    Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court.</p>
-    <p>As Feyre navigates its dark web of politics, passion, and dazzling power, a greater evil looms - and she might be key to
+    Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court.
+<br/>
+<br/>
+    As Feyre navigates its dark web of politics, passion, and dazzling power, a greater evil looms - and she might be key to
     stopping it. But only if she can harness her harrowing gifts, heal her fractured soul, and decide how she wishes to
     shape her future - and the future of a world cleaved in two.</p>
     <br>
     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/467/original/acomaf.jpg?1700475202" alt="" class="img-fluid book-img">
     <h3>BUY HERE</h3>
-    <p>Amazon | Barnes & Noble | IndieBound | Apple Books | GooglePlay | Kobo | Waterstones | Amazon UK | Book Depository</p>
+    <p class="buy-links">Amazon | Barnes & Noble | IndieBound | Apple Books | GooglePlay | Kobo | Waterstones | Amazon UK | Book Depository</p>
 </div>
 </div>
-    <div class="col-md-6 border">
+    <div class="col-md-6">
         <div class="row ">
-            <div class="col-md-12 col-sm-6 border">
-<div class="card">
+            <div class="col-md-12 col-sm-6">
+<div class="card details">
             <h2>Details</h2>
-            <p>624 pages, Paperback
-            First published May 3, 2016
+        <div class="details-para">
+            <p>First published May 3, 2016
             </p>
             <p>
-            Original title
+            Original title:
             A Court of Mist and Fury
             </p>
             <p>
-            Series
+            Series:
             A Court of Thorns and Roses (#2)
             </p>
             <p>
-            Setting
+            Setting:
             Prythian
             </p>
             <p>
-            Characters
+            Characters:
             Rhysand, Elain Archeron, Lucien Vanserra, Morrigan, Feyre Archeron, Tamlin (A Court of Thorns and Roses), Cassian (A
             Court of Thorns and Roses), Azriel (A Court of Thorns and Roses), Nesta Archeron</p>
             </div>
             </div>
-            <div class="col-md-12 col-sm-12 border">
-<div class="card">
+            </div>
+            <div class="col-md-12 col-sm-12">
+<div class="card quotes">
             <h2>Quotes</h2>
+        <div class="quote-para">
             <p>“Hello, Feyre darling,”</p>
             <p>“To the stars who listen— and the dreams that are answered.”</p>
             <p>“He thinks he'll be remembered as the villain in the story. But I forgot to tell him that the villain is usually the
             person who locks up the maiden and throws away the key. He was the one who let me out.”</p>
             <p>“When you spend so long trapped in darkness, you find that the darkness begins to stare back.” </p>
             <p>“She is my mate. And my spy,' I said too quietly. 'And she is the High Lady of the Night Court.”</p>
+            </div>
             </div>
             </div>
         </div>
